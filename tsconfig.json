@@ -3,6 +3,7 @@
     "target": "es2018",
     "module": "commonjs",
     "jsx": "react",
+    "skipLibCheck": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
