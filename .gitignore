@@ -7,3 +7,5 @@ npm-debug.*
 *.mobileprovision
 yarn-debug.log*
 yarn-error.log*
+.idea
+.vscode
