@@ -17,6 +17,7 @@
     "@types/react": "^16.7.11",
     "@types/react-native": "^0.57.15",
     "babel-preset-expo": "^5.0.0",
+    "react-native-storybook-loader": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.10",
     "typescript": "^3.2.1"
   }
