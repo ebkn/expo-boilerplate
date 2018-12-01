@@ -1234,7 +1234,16 @@
     react-modal "^3.6.1"
     react-treebeard "^3.1.0"
 
-"@types/fbemitter@^2.0.32":
+"@types/expo@^31.0.1":
+  version "31.0.1"
+  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-31.0.1.tgz#1e68ee368f8f04ee5abf42c3990d1ae1cea15c33"
+  integrity sha512-HS/QWaFetU04kqV7khZjzV/RplPVngriFnrv2n8iNZ1cjSLkLYkHRbCh1hmLxUCOqmBjgtOIY67D3OJwVJLYEg==
+  dependencies:
+    "@types/fbemitter" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/fbemitter@*", "@types/fbemitter@^2.0.32":
   version "2.0.32"
   resolved "https://registry.yarnpkg.com/@types/fbemitter/-/fbemitter-2.0.32.tgz#8ed204da0f54e9c8eaec31b1eec91e25132d082c"
   integrity sha1-jtIE2g9U6cjq7DGx7skeJRMtCCw=
@@ -1271,7 +1280,7 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.5.1.tgz#a38f69c62528d56ba7bd1f91335a8004988d72f7"
   integrity sha512-mNhVdZHdtKHMMxbqzNK3RzkBcN1cux3AvuCYGTvjEIQT2uheH3eCAyYsbMbh2Bq8nXkeOWs1kyDiF7geWRFQ4Q==
 
-"@types/react-native@^0.57.15":
+"@types/react-native@*", "@types/react-native@^0.57.15":
   version "0.57.15"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.15.tgz#80ddae98249ea0625b13b6d20a96582b67511a29"
   integrity sha512-F4Uh8RlP0FJT4A70rgCEA35Q9chGqm7QwFzJL7PdgpX0LGIZfsQBgVYdh87WPe8MUK5FcYxtKEYksxoXu/BgYQ==
