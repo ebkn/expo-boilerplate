@@ -1263,10 +1263,30 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/storybook__react-native@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/storybook__react-native/-/storybook__react-native-3.0.2.tgz#29ede586d2f3010b9eecc83d59ea1f4436824837"
+  integrity sha512-9HlPzUOw4ZNfRlMllFsbLseQqO6ohyTE/WIwmdbJLaWx5fO7orMkzRLAlKh0wcPMglWYFeR3CN2wIzL3J7V0EA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/storybook__react@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-4.0.0.tgz#52cc452fbab599568d595075a90142ef4a1233f6"
+  integrity sha512-Iq3RX953fqZRwWN3jywm8pUx1/Atev+x/9tF7/2CNA+Ii55sGSJJRWMRthUKQXTa3zOexcvfksfVYdUaIZY91w==
+  dependencies:
+    "@types/react" "*"
+    "@types/webpack-env" "*"
+
 "@types/uuid-js@^0.7.1":
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@types/uuid-js/-/uuid-js-0.7.1.tgz#8f58e32a9e7d3fccd434ce02deafeab013068e77"
   integrity sha512-bEvifL8co2yO6js7Zv7uMBRrr7SeTS5IPVmFnEJZ8vycXczlu3omOlmkQynBMsno8rOtLuagrj7oAWtXTDCU1Q==
+
+"@types/webpack-env@*":
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.6.tgz#128d1685a7c34d31ed17010fc87d6a12c1de6976"
+  integrity sha512-5Th3OsZ4gTRdr9Mho83BQ23cex4sRhOR4XTG+m+cJc0FhtUBK9Vn62hBJ+pnQYnSxoPOsKoAPOx6FcphxBC8ng==
 
 "@types/websql@^0.0.27":
   version "0.0.27"
