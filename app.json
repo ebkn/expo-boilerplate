@@ -22,6 +22,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "packagerOpts": {
+      "sourceExts": ["ts", "tsx"],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
     "ios": {
       "supportsTablet": true
     }
