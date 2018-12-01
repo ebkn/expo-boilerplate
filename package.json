@@ -2,12 +2,10 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject",
+    "start": "concurrently \"yarn tsserver\" \"expo start\"",
     "prestorybook": "rnstl",
-    "storybook": "STORYBOOK_ENABLED=true yarn start"
+    "storybook": "concurrently \"yarn tsserver\" \"STORYBOOK_ENABLED=true yarn start\"",
+    "tsserver": "tsc --watch"
   },
   "config": {
     "react-native-storybook-loader": {
