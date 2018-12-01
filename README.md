@@ -1,6 +1,8 @@
 ## Expo boilerplate
 
-TypeScript + Storybook + Jest
+[![Build Status](https://travis-ci.com/ebkn/expo-boilerplate.svg?branch=master)](https://travis-ci.com/ebkn/expo-boilerplate)
+
+ReactNative(Expo) + TypeScript + Storybook + Jest boilerplate
 
 ### Dependencies
 ```
