@@ -3,9 +3,14 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"yarn tsserver\" \"expo start\"",
-    "prestorybook": "rnstl",
+    "prestorybook": "yarn typecheck && rnstl",
     "storybook": "concurrently \"yarn tsserver\" \"STORYBOOK_ENABLED=true yarn start\"",
-    "tsserver": "tsc --watch"
+    "tsserver": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prelint": "yarn typecheck",
+    "lint": "tslint './App.js ./src/**/*.ts{,x}'",
+    "prelint:fix": "yarn typecheck",
+    "lint:fix": "tslint --fix './App.js ./src/**/*.ts{,x}'"
   },
   "config": {
     "react-native-storybook-loader": {
