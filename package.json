@@ -10,7 +10,9 @@
     "prelint": "yarn typecheck",
     "lint": "tslint './App.js ./src/**/*.ts{,x}'",
     "prelint:fix": "yarn typecheck",
-    "lint:fix": "tslint --fix './App.js ./src/**/*.ts{,x}'"
+    "lint:fix": "tslint --fix './App.js ./src/**/*.ts{,x}'",
+    "pretest": "yarn typecheck",
+    "test": "jest"
   },
   "config": {
     "react-native-storybook-loader": {
