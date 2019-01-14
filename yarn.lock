@@ -952,12 +952,13 @@
     react-native-modal-selector "^0.0.29"
     react-native-switch "^1.5.0"
 
-"@storybook/addon-ondevice-notes@^4.0.8":
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-4.0.8.tgz#2948d0e67d7b6c1d1994eb8a56e0f89ae8751e1b"
-  integrity sha512-/o70PBWniRAvKRPF0Q7UL1C+l/QB7owWxwlpIVy3XZrKY9yM1IXzDMBOZlxL5UllGQ9Fx9qEQverIWEmvntoMQ==
+"@storybook/addon-ondevice-notes@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-4.1.6.tgz#65a1929f3e80102b98d3e9db84704368df25e58a"
+  integrity sha512-9ntYEy3Ok7Y/KVvRJBfnorJxQVU7nRacp1x/cy6JZ+fCRFUzD30Yk44lD4GLTsjTaMZ2FLoWrSFaFPlEP8jTgg==
   dependencies:
-    "@storybook/addons" "4.0.8"
+    "@storybook/addons" "4.1.6"
+    core-js "^2.5.7"
     prop-types "^15.6.2"
     react-native-simple-markdown "^1.1.0"
 
@@ -978,6 +979,16 @@
   dependencies:
     "@storybook/channels" "4.0.8"
     "@storybook/components" "4.0.9"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
+"@storybook/addons@4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.1.6.tgz#458c4c6baf8b2acaffb9ced705a8db224bd874b6"
+  integrity sha512-5dG0adChzNRbRLS/YD/5mEoWLTk3uaJpzbRSJVKe6HQKBPDXmuEMYYPiHI83o15YBJjGHx68+PkHBI08oRsuhQ==
+  dependencies:
+    "@storybook/channels" "4.1.6"
+    "@storybook/components" "4.1.6"
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
@@ -1002,6 +1013,11 @@
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.8.tgz#36d96ad714c685f144fd1f1e5394faf0e0291032"
   integrity sha512-nGMVPN4eOJlAXxS2u3a5aj7YJ4ChhlLx0+4HC6xaU5Uv+PaL6ba0gh84Zd9K73JnTSPPMq/4Mg3oncZumyeN9Q==
+
+"@storybook/channels@4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.6.tgz#52b56f5c94f58442aba2d9c5919bb00ff33475c5"
+  integrity sha512-8MqGYypdaPmZR7eORXdxtJijGOz5UMHXoMskVtodvKi26tmltFKX+okXFNh/teKe3+8s0QWkpzM95VI+Z+0qFA==
 
 "@storybook/client-logger@4.0.8":
   version "4.0.8"
@@ -1028,6 +1044,22 @@
   version "4.0.9"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.0.9.tgz#c5cc9f52768fd7a6078d9601cecacd0e357dc130"
   integrity sha512-EoPJitDUBkNdg4UiWyrmU6IkpLmJTjJO6KD382isHXA7qCxBJQTPb2m3GXy35KKF510NtJ9H0l4k5x7yg5Wzng==
+  dependencies:
+    "@emotion/core" "^0.13.1"
+    "@emotion/provider" "^0.11.2"
+    "@emotion/styled" "^0.10.6"
+    global "^4.3.2"
+    lodash "^4.17.11"
+    prop-types "^15.6.2"
+    react-inspector "^2.3.0"
+    react-split-pane "^0.1.84"
+    react-textarea-autosize "^7.0.4"
+    render-fragment "^0.1.1"
+
+"@storybook/components@4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.1.6.tgz#f4430c77fc3eceddcd912a6c5e461554539c4f4d"
+  integrity sha512-kWIUiexzFurNwW8NaJEhlFWD1kohnvNlOxgph7oSoXo/yCBodkEYpIuNbznQnNSH2xIjqh1dvbniJNSJZyEbTQ==
   dependencies:
     "@emotion/core" "^0.13.1"
     "@emotion/provider" "^0.11.2"
