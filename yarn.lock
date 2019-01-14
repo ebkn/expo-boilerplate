@@ -1234,14 +1234,15 @@
     react-modal "^3.6.1"
     react-treebeard "^3.1.0"
 
-"@types/expo@^31.0.1":
-  version "31.0.1"
-  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-31.0.1.tgz#1e68ee368f8f04ee5abf42c3990d1ae1cea15c33"
-  integrity sha512-HS/QWaFetU04kqV7khZjzV/RplPVngriFnrv2n8iNZ1cjSLkLYkHRbCh1hmLxUCOqmBjgtOIY67D3OJwVJLYEg==
+"@types/expo@^31.0.7":
+  version "31.0.7"
+  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-31.0.7.tgz#d03f67bab9cb00c05715b5d60edad1c6c6633968"
+  integrity sha512-W6ywc/+7OWJ/+iwQ1Te5zJskKSbwz0nyeTe6+JnQL+EkQ4Ih/t5xxs/XcsZtwv+iCydOvrHF1xGary4g+awOeA==
   dependencies:
     "@types/fbemitter" "*"
     "@types/react" "*"
     "@types/react-native" "*"
+    react-native-maps "*"
 
 "@types/fbemitter@*", "@types/fbemitter@^2.0.32":
   version "2.0.32"
@@ -8829,7 +8830,7 @@ react-native-gesture-handler@1.0.9:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-maps@expo/react-native-maps#v0.22.1-exp.0:
+react-native-maps@*, react-native-maps@expo/react-native-maps#v0.22.1-exp.0:
   version "0.22.1"
   resolved "https://codeload.github.com/expo/react-native-maps/tar.gz/e6f98ff7272e5d0a7fe974a41f28593af2d77bb2"
 
