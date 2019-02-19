@@ -31,7 +31,7 @@
   "devDependencies": {
     "@storybook/addon-ondevice-knobs": "^4.1.6",
     "@storybook/addon-ondevice-notes": "^4.1.6",
-    "@storybook/react-native": "^4.1.6",
+    "@storybook/react-native": "^4.1.12",
     "@types/expo": "^31.0.7",
     "@types/jest": "^23.3.12",
     "@types/react": "^16.7.20",
