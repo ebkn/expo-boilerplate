@@ -1191,15 +1191,25 @@
     react-native-modal-selector "^0.0.29"
     react-native-switch "^1.5.0"
 
-"@storybook/addon-ondevice-notes@^4.1.6":
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-4.1.6.tgz#65a1929f3e80102b98d3e9db84704368df25e58a"
-  integrity sha512-9ntYEy3Ok7Y/KVvRJBfnorJxQVU7nRacp1x/cy6JZ+fCRFUzD30Yk44lD4GLTsjTaMZ2FLoWrSFaFPlEP8jTgg==
+"@storybook/addon-ondevice-notes@^4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-4.1.14.tgz#8e14d6abddebf2328edf25c6aaf23505d2941646"
+  integrity sha512-XQ/bmpzr9chiunR+pVIlp6IQ1UMkaR6BAxMg6ru7b0g3tVt2RFoYv2NUeEp0BbxZxywLys9MKtU0oEjgeL8RbA==
   dependencies:
-    "@storybook/addons" "4.1.6"
+    "@storybook/addons" "4.1.14"
     core-js "^2.5.7"
     prop-types "^15.6.2"
     react-native-simple-markdown "^1.1.0"
+
+"@storybook/addons@4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.1.14.tgz#e976ac21b82043efb8fb2289063b370d94c29eae"
+  integrity sha512-nAieZLLeXzuUY8TIHshzVX8VUtUowsyohIKilZSzLIBFMpCEYlyPBilrE9ULqUEtVQWi5peAiKRZ1xJQxx/TIA==
+  dependencies:
+    "@storybook/channels" "4.1.14"
+    "@storybook/components" "4.1.14"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
 
 "@storybook/addons@4.1.6":
   version "4.1.6"
@@ -1224,6 +1234,11 @@
     "@storybook/channels" "4.1.6"
     global "^4.3.2"
 
+"@storybook/channels@4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.14.tgz#8af55d028d7f86f5a9abb9329df7e9d1121f404b"
+  integrity sha512-2BpKF7MXWfJeY9lRHrUseJ6JoZXshmo9B4np7TAex3NXOeRLsptQMCfQXgMgUMDQhABc0o9XBAruQOb9zMyd7w==
+
 "@storybook/channels@4.1.6":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.6.tgz#52b56f5c94f58442aba2d9c5919bb00ff33475c5"
@@ -1233,6 +1248,22 @@
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-4.1.6.tgz#3409c20467abe4f98751db9a8d6769c21d0c80e5"
   integrity sha512-P65Pw3m2FRW7QDIU51zj3ANzo7twL7/9nQKoyMJKy/1rgqk1RMa/boHERPRhfATzqYPf5hh2G0PBTMKBEG4A8w==
+
+"@storybook/components@4.1.14":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.1.14.tgz#54e33ab9bf09ce75f1b97e9212672921444a9fdc"
+  integrity sha512-UdSwxZutRUW8umaaPnris5M9pGz2220KXs/5g2URaw3rEL8eUaKLKJXSpFSOeXPhlCnV7B9R/qanG9GXGQKXmg==
+  dependencies:
+    "@emotion/core" "^0.13.1"
+    "@emotion/provider" "^0.11.2"
+    "@emotion/styled" "^0.10.6"
+    global "^4.3.2"
+    lodash "^4.17.11"
+    prop-types "^15.6.2"
+    react-inspector "^2.3.0"
+    react-split-pane "^0.1.84"
+    react-textarea-autosize "^7.0.4"
+    render-fragment "^0.1.1"
 
 "@storybook/components@4.1.6":
   version "4.1.6"
