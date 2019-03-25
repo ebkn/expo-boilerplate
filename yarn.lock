@@ -1454,10 +1454,10 @@
     react-modal "^3.6.1"
     react-treebeard "^3.1.0"
 
-"@types/expo@^31.0.7":
-  version "31.0.7"
-  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-31.0.7.tgz#d03f67bab9cb00c05715b5d60edad1c6c6633968"
-  integrity sha512-W6ywc/+7OWJ/+iwQ1Te5zJskKSbwz0nyeTe6+JnQL+EkQ4Ih/t5xxs/XcsZtwv+iCydOvrHF1xGary4g+awOeA==
+"@types/expo@^32.0.9":
+  version "32.0.9"
+  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-32.0.9.tgz#f32ec58e22159232a5246048ae09a9441007b9e9"
+  integrity sha512-9NvR7AkpM9B4SJ+/WptMWQi0nKNJzMQx/rWDBk3EJWsQf6aYv4/jfbacCN8n68xkbLYtvZNiS2VUKUIX/YX3iQ==
   dependencies:
     "@types/fbemitter" "*"
     "@types/react" "*"
