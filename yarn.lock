@@ -1454,15 +1454,16 @@
     react-modal "^3.6.1"
     react-treebeard "^3.1.0"
 
-"@types/expo@^31.0.7":
-  version "31.0.7"
-  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-31.0.7.tgz#d03f67bab9cb00c05715b5d60edad1c6c6633968"
-  integrity sha512-W6ywc/+7OWJ/+iwQ1Te5zJskKSbwz0nyeTe6+JnQL+EkQ4Ih/t5xxs/XcsZtwv+iCydOvrHF1xGary4g+awOeA==
+"@types/expo@^32.0.11":
+  version "32.0.11"
+  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-32.0.11.tgz#b13fe196ec8002636c0a1cefc05d36e1d82c6448"
+  integrity sha512-PaMsmHgKJkDdIYXUkG64a6/CEk2SLPOnlrTl8ia5Ra2PR2T+4Sl4pDhNpNKyZAj6TK6e6ufbqBt/bscVFB9ksw==
   dependencies:
     "@types/fbemitter" "*"
     "@types/react" "*"
     "@types/react-native" "*"
     react-native-maps "*"
+    react-native-svg "*"
 
 "@types/fbemitter@*", "@types/fbemitter@^2.0.32":
   version "2.0.32"
@@ -9255,6 +9256,11 @@ react-native-storybook-loader@^1.8.0:
     findup "^0.1.5"
     glob "^7.1.1"
     yargs "^8.0.2"
+
+react-native-svg@*:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.4.0.tgz#e428e0eae55aebd2355f1ff4f22675dad4611960"
+  integrity sha512-IVJlVbS2dAPerPr927fEi4uXzrPXzlra5ddgyJXZZ2IKA2ZygyYWFZDM+vsQs+Vj20CfL8nOWszQQV57vdQgFg==
 
 react-native-svg@8.0.10:
   version "8.0.10"
