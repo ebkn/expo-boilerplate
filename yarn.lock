@@ -1501,10 +1501,10 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.5.1.tgz#a38f69c62528d56ba7bd1f91335a8004988d72f7"
   integrity sha512-mNhVdZHdtKHMMxbqzNK3RzkBcN1cux3AvuCYGTvjEIQT2uheH3eCAyYsbMbh2Bq8nXkeOWs1kyDiF7geWRFQ4Q==
 
-"@types/react-native@*", "@types/react-native@^0.57.29":
-  version "0.57.29"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.29.tgz#5e2ba67fae9325c878286a07b9357c8a26e658e7"
-  integrity sha512-wuF3hJOXCqcS0/ZbqPa34rrb0TwhkqIxulgaCsjsvrHsdMoIv/lw5t55FXhEU9mKyoAwFYp8xK/EZj0udMLM5w==
+"@types/react-native@*", "@types/react-native@^0.57.49":
+  version "0.57.49"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.49.tgz#eef43fba8149c6591201edcde9930cb30169b97f"
+  integrity sha512-Qv9goNNMTMo/KQNV6KrkJkRi8+X+JnkVws3ST1yW//iloRqkxreYHxQb0aFFXI+Cj/TRsEimszK82eujBn4wNw==
   dependencies:
     "@types/prop-types" "*"
     "@types/react" "*"
